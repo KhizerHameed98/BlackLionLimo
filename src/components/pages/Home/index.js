@@ -86,7 +86,7 @@ const useStyles = makeStyles((theme) => ({
     maxWidth: 400,
   },
   midCardMedia: {
-    height: 140,
+    height: 100,
   },
 
   footer: {
@@ -198,7 +198,7 @@ export default function Home() {
           </div>
           <Container maxWidth="lg">
             <Grid container style={{ marginTop: "200px" }}>
-              <Grid item xs={4} md={4}>
+              <Grid item xs={12} md={4} sm={12}>
                 <Card className={classes.midCard}>
                   <CardActionArea>
                     <CardMedia
@@ -230,69 +230,99 @@ export default function Home() {
                   </CardActions>
                 </Card>
               </Grid>
-              <Grid item xs={4} md={4}>
+              <Grid item xs={12} md={4} sm={12}>
                 <Card className={classes.midCard}>
                   <CardActionArea>
                     <CardMedia
                       className={classes.midCardMedia}
-                      image="/static/images/cards/contemplative-reptile.jpg"
+                      image={cardImage}
                       title="Contemplative Reptile"
                     />
                     <CardContent>
                       <Typography gutterBottom variant="h5" component="h2">
-                        Lizard
+                        City to City rides
                       </Typography>
                       <Typography
                         variant="body2"
                         color="textSecondary"
                         component="p"
                       >
-                        Lizards are a widespread group of squamate reptiles,
-                        with over 6,000 species, ranging across all continents
-                        except Antarctica
+                        Your stress-free solution for traveling between cities,
+                        with chauffeurs across the globe.
                       </Typography>
                     </CardContent>
                   </CardActionArea>
                   <CardActions>
-                    <Button size="small" color="primary">
+                    {/* <Button size="small" color="primary">
                       Share
                     </Button>
                     <Button size="small" color="primary">
                       Learn More
-                    </Button>
+                    </Button> */}
                   </CardActions>
                 </Card>
               </Grid>{" "}
-              <Grid item xs={4} md={4}>
+              <Grid item xs={12} md={4} sm={12}>
                 <Card className={classes.midCard}>
                   <CardActionArea>
                     <CardMedia
                       className={classes.midCardMedia}
-                      image="/static/images/cards/contemplative-reptile.jpg"
+                      image={cardImage}
                       title="Contemplative Reptile"
                     />
                     <CardContent>
                       <Typography gutterBottom variant="h5" component="h2">
-                        Lizard
+                        City to City rides
                       </Typography>
                       <Typography
                         variant="body2"
                         color="textSecondary"
                         component="p"
                       >
-                        Lizards are a widespread group of squamate reptiles,
-                        with over 6,000 species, ranging across all continents
-                        except Antarctica
+                        Your stress-free solution for traveling between cities,
+                        with chauffeurs across the globe.
                       </Typography>
                     </CardContent>
                   </CardActionArea>
                   <CardActions>
-                    <Button size="small" color="primary">
+                    {/* <Button size="small" color="primary">
                       Share
                     </Button>
                     <Button size="small" color="primary">
                       Learn More
+                    </Button> */}
+                  </CardActions>
+                </Card>
+              </Grid>{" "}
+              <Grid item xs={12} md={4} sm={12}>
+                <Card className={classes.midCard}>
+                  <CardActionArea>
+                    <CardMedia
+                      className={classes.midCardMedia}
+                      image={cardImage}
+                      title="Contemplative Reptile"
+                    />
+                    <CardContent>
+                      <Typography gutterBottom variant="h5" component="h2">
+                        City to City rides
+                      </Typography>
+                      <Typography
+                        variant="body2"
+                        color="textSecondary"
+                        component="p"
+                      >
+                        Your stress-free solution for traveling between cities,
+                        with chauffeurs across the globe.
+                      </Typography>
+                    </CardContent>
+                  </CardActionArea>
+                  <CardActions>
+                    {/* <Button size="small" color="primary">
+                      Share
                     </Button>
+                    <Button size="small" color="primary">
+                      Learn More
+                    </Button> */}
                   </CardActions>
                 </Card>
               </Grid>

@@ -89,6 +89,10 @@
   top: var(--centi); */
   color: red;
 }
+/* .MuiGrid-grid-xs-4 {
+  max-width: 100% !important;
+  flex-basis: auto !important;
+} */
 .bookingWidget_bookingWidgetContainer__4aVAI {
   background: var(--color-background-default);
   border-radius: var(--atto);
